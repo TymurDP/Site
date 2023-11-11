@@ -186,7 +186,7 @@ h3 {
 }
 
 .hero-wrap {
-  background-image: url(/images/bg-hero.png);
+  background-image: url(../images/bg-hero.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
