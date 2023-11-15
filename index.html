@@ -167,7 +167,32 @@
           referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="signing">
           <div class="form1">
-            <h4>Запишіться <span class="blue-color">безкоштовно</span> та отримайте подарунок</h4>
+            <h4 class="contact-form-title">Запишіться <span class="blue-color">безкоштовно</span> та отримайте подарунок
+            </h4>
+            <form class="contact-form" autocomplete="off" novalidate>
+              <div class="form-field">
+                <label class="contact-form-field visually-hidden" for "user-name">Ваше ім'я та прізвище</label>
+                <input class="form-input" type="text" id="user-name" name="user-name"
+                  placeholder="Ваше ім'я та прізвище">
+              </div>
+
+              <div class="contact-form-field"><label class="form-label visually-hidden" for "user-tel">Ваш номер
+                  телефону</label>
+                <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="Ваш номер телефону">
+              </div>
+
+              <div class="contact-form-field"><label class="form-label visually-hidden" for "user-mail">Ваша електронна
+                  пошта</label>
+                <input class="form-input" type="email" id="user-mail" name="user-mail"
+                  placeholder="Ваша електронна пошта">
+              </div>
+
+              <button class="form-button button" type="submit">Замовити дзвінок</button>
+              <p class="small-text-modal">Натискаючи на кнопку я погоджуюсь<br>з <a href="#"><span
+                    class="underl">політікою
+                    конфіденційності</span></a>
+              </p>
+            </form>
           </div>
 
         </div>
@@ -234,6 +259,28 @@
   <div class="backdrop is-hidden">
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
+      <form class="modal-form" autocomplete="off" novalidate>
+        <h2 class="order-call">Замовити дзвінок</h2>
+        <h4 class="call-free">Запишіться <span class="blue-color">безкоштовно</span><br>та отримайте подарунок</h4>
+
+        <div class="form-field">
+          <label class="form-label visually-hidden" for "user-name">Ваше ім'я та прізвище</label>
+          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ваше ім'я та прізвище">
+        </div>
+
+        <div class="form-field"><label class="form-label visually-hidden" for "user-tel">Ваш номер телефону</label>
+          <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="Ваш номер телефону">
+        </div>
+
+        <div class="form-field"><label class="form-label visually-hidden" for "user-mail">Ваша електронна пошта</label>
+          <input class="form-input" type="email" id="user-mail" name="user-mail" placeholder="Ваша електронна пошта">
+        </div>
+
+        <button class="form-button button " type="submit">Замовити дзвінок</button>
+        <p class="small-text-modal">Натискаючи на кнопку я погоджуюсь<br>з <a href="#"><span class="underl">політікою
+              конфіденційності</span></a>
+        </p>
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
