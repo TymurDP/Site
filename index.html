@@ -259,21 +259,23 @@
   <div class="backdrop is-hidden">
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
-      <form class="modal-form" autocomplete="off" novalidate>
+      <form class="modal-form" autocomplete="off">
         <h2 class="order-call">Замовити дзвінок</h2>
         <h4 class="call-free">Запишіться <span class="blue-color">безкоштовно</span><br>та отримайте подарунок</h4>
 
         <div class="form-field">
           <label class="form-label visually-hidden" for "user-name">Ваше ім'я та прізвище</label>
-          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ваше ім'я та прізвище">
+          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ваше ім'я та прізвище"
+            required>
         </div>
 
         <div class="form-field"><label class="form-label visually-hidden" for "user-tel">Ваш номер телефону</label>
-          <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="Ваш номер телефону">
+          <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="Ваш номер телефону" required>
         </div>
 
         <div class="form-field"><label class="form-label visually-hidden" for "user-mail">Ваша електронна пошта</label>
-          <input class="form-input" type="email" id="user-mail" name="user-mail" placeholder="Ваша електронна пошта">
+          <input class="form-input" type="email" id="user-mail" name="user-mail" placeholder="Ваша електронна пошта"
+            required>
         </div>
 
         <button class="form-button button " type="submit">Замовити дзвінок</button>
