@@ -1,0 +1,42 @@
+.about-us-section {
+    display: flex;
+    gap: 32px;
+
+    &__container {
+    display: flex;
+    }
+
+    &__text {
+    display: block;
+    max-width: 320px;
+    font-size: 18px;
+
+    @media screen and (min-width: $bp-tablet) {
+        max-width: 709px;    
+        font-size: 22px;
+        }
+
+    }
+
+    &__title {
+        width: 264px;
+        text-align: left;
+        font-size: 32px;
+        margin-bottom: 24px;
+        
+        @media screen and (min-width: $bp-tablet) {
+        margin-bottom: 40px;
+        
+        }
+    }
+
+    &__photo {
+        display: none;
+
+        @media screen and (min-width: $bp-desctop) {
+        display: flex;
+        padding-left: 32px;
+        align-items: flex-end;
+        }
+    }
+}

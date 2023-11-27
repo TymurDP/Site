@@ -1,0 +1,12 @@
+.link {
+    text-decoration: none;
+    transition: color 0.5s;
+   }
+
+.link a {
+    color: var(--primary-color);
+}
+
+.link:hover {
+    color: var(--blue-color);
+}

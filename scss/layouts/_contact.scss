@@ -1,0 +1,95 @@
+.contact-section {
+    padding-bottom: 36px;
+    @media screen and (min-width: $bp-desctop) {
+    padding-bottom: 96px;
+    }
+    
+    &__title {
+        font-size: 32px;
+        @media screen and (min-width: $bp-desctop) {
+        font-size: 64px;
+        font-weight: 700;
+            }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 24px;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: $bp-desctop) {
+        flex-direction: row;
+        gap: 32px;
+        margin-top: 48px;
+        }
+           
+        
+    }
+
+
+    &__signing {
+        width: 320px;
+        height: 434px;
+        background-color: #011f4a;
+        border-radius: 32px;
+        flex-shrink: 0;
+        justify-content: center;
+        vertical-align: middle;
+
+        @media screen and (min-width: $bp-tablet) {
+        width: 422px;
+        height: 482px;
+        }
+
+    }
+        &__map {
+        flex-shrink: 0;
+        border: none;
+        margin: 0 -24px;
+        height: 232px;
+        width: 110%;
+        
+        @media screen and (min-width: $bp-tablet) {
+        width: 605px;
+        height: 480px;
+        margin: auto;
+        border-radius: 32px;
+        }
+        
+        @media screen and (min-width: $bp-desctop) {
+        width: 605px;
+        height: 480px;
+        margin: auto;
+        border-radius: 32px;
+        }
+    }
+
+}
+
+.contact-form-title {
+    margin-bottom: 0;
+}
+
+.contact-form-field {
+    margin-bottom: 16px;
+    position: relative;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+    margin-bottom: 24px;
+    }
+}
+
+.form1 {
+    margin: 42px 24px;
+    color: var(--white-color);
+    text-align: center;
+    
+    @media screen and (min-width: $bp-desctop) {
+    margin: 48px 58px;
+    }
+}
+

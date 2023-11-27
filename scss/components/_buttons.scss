@@ -1,0 +1,31 @@
+button {
+    border-radius: 32px;
+    border: 2px solid var(--blue-color);
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 10px;
+
+
+    @media  screen and (min-width: $bp-tablet) {
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+    }
+}
+
+button:disabled {
+    background-color: var(--grey-color);
+    color: var(--white-color);
+    cursor: not-allowed;
+}
+
+button:hover {
+    border: 2px solid var(--blue-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
