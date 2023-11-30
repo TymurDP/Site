@@ -10,8 +10,7 @@
  &__container {
      overflow: hidden;
      gap: 16px;
-     z-index: -1;
-    
+         
 }
 
 &__procedure {
@@ -55,5 +54,5 @@
     left: 0;
     width: 344px;
     // height: auto;
-     object-fit: cover;
+    object-fit: cover;
 }

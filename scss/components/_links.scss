@@ -3,7 +3,11 @@
     transition: color 0.5s;
    }
 
-.link a {
+.link {
+    color: var(--primary-color);
+}
+
+.link:visited {
     color: var(--primary-color);
 }
 

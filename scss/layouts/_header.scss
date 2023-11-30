@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    position: fixed;
+    
 
     @media screen and (min-width: $bp-desctop) {
         background: rgba(255, 255, 255, 0.25);
@@ -34,7 +34,7 @@
        display: flex;
        align-items: center;
        gap: 40px;
-    }
+       }
 
     
     &__button {
