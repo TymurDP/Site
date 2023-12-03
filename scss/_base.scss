@@ -1,0 +1,51 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--black-color);
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 0 16px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

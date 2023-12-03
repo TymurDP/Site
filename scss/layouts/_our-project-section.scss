@@ -1,0 +1,69 @@
+.our-project-section {
+
+    &__wrapper {
+        background-image: url('../images/project.png');
+        height: 630px;
+        background-repeat: no-repeat;
+        margin-top: -90px;
+        display: flex;
+            }
+
+    &__content {
+        display: flex;
+
+    }
+
+    &__info {
+        margin-top: 106px;
+        margin-left: 29px;
+                }
+
+    &__title {
+        font-weight: 700;
+        margin-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    &__text {
+        width: 306px;
+    }
+
+    &__place {
+        margin-top: 45px;
+        width: 617px;
+    }
+
+    &__header {
+        display: block;
+        padding-left: 141px;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: right;
+            }
+    &__image-wrapp {
+        display: flex;
+        gap: 5px;
+
+    }
+
+         &__leftbtn {
+            position: absolute;
+            padding-top: 524px;
+            padding-left: 127px;
+            cursor: pointer;
+         }
+         
+           &__righttbtn {
+            position: absolute;
+            margin-top: -31px;
+            margin-left: 689px;
+            cursor: pointer;
+         }
+    
+    
+    &__image {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+}
+         

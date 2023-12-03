@@ -1,394 +1,142 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beauty Zone</title>
-  <link rel="stylesheet" href="css/main.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Bento Studio</title>
 </head>
 
 <body>
-  <img class="header-bg-style" srcset="./images/bg-hero.jpg 1x, ./images/bg-hero@2x.jpg 2x" src="./images/bg-hero.png"
-    alt="Косметологічна клініка" />
-
-  <!-- <img src="./images/bg-hero.png" class="header-bg-style" alt="Косметологічна клініка"> -->
-  <header class="header">
-    <div class="container">
-      <div class="header__container">
-        <nav class="header__nav"><a href="/index.html">
-            <img class="header__logo" src="./images/logo.svg" alt="Beauty zone" />
-            <img class="header__logo-mob" src="./images/logo-mob.svg" alt="Beauty zone" />
-            <ul class="header__menu">
-              <li><a class="link" href="#about-us">Про нас</a></li>
-              <li><a class="link" href="#why-we">Чому ми</a></li>
-              <li><a class="link" href="#procedure">Наші процедури</a></li>
-              <li><a class="link" href="#contacts">Контакти</a></li>
-            </ul>
-        </nav>
-        <div class="social">
-          <ul class="social-links">
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg></a>
-            </li>
-            <li><a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg></a>
-            </li>
-            <li><a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg></a>
-            </li>
-          </ul>
-        </div>
-        <button class="header__button menu-btn-open">
-          <svg class="address-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-menu"></use>
-          </svg>
-        </button>
-        <div class="mobile-menu">
-          <button type="button" class="mobile-menu__btn-close menu-btn-close">
-            <svg class="address-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-close-menu"></use>
-            </svg>
-          </button>
-
-          <img class="mobile-menu__logo" src="./images/logo-mob.svg" alt="Beauty zone" />
-          <nav>
-            <ul class="mobile-menu__links">
-              <li><a href="#">Про нас</a></li>
-              <li><a href="#">Чому ми</a></li>
-              <li><a href="#">Наші процедури</a></li>
-              <li><a href="#">Контакти</a></li>
-              <li>
-                <ul class="mobile-menu__socials">
-                  <li>
-                    <a href="#">
-                      <svg class="address-icon-footer" width="32" height="32">
-                        <use href="./images/icons.svg#icon-phone"></use>
-                      </svg></a>
-                  </li>
-                  <li><a href="#">
-                      <svg class="address-icon-footer" width="32" height="32">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg></a>
-                  </li>
-                  <li><a href="#">
-                      <svg class="address-icon-footer" width="32" height="32">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg></a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-
-          </nav>
-
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="hero-section">
-      <div class="container">
-        <p>Косметологічна клініка</p>
-        <h1 class="hero-section__title">beauty zone</h1>
-        <button class="hero_button modal-btn-open" type="button">Замовити дзвінок</button>
-        <p class="small_text">
-          Запишись та отримай безкоштовну<br>консультацію нашого косметолога
-        </p>
-      </div>
-    </section>
-    <section class="about-us-section">
-      <div class="container">
-        <div class="about-us-section__container">
-          <div class="about-us-section__text">
-            <h2 class="about-us-section__title">
-              Перевтілюйтесь в
-              <span class="blue-color text-uppercase text-bold">beauty zone!</span>
-            </h2>
-            <h3 class="about-us-section__text">
-              Наша косметологічна клініка пропонує вам професійні послуги з
-              догляду за шкірою обличчя та тіла.
-            </h3>
-            <h3 class="about-us-section__text">
-              B <span class="text-uppercase text-bold">beauty zone</span> ми гарантуємо найвищі
-              стандарти якості та приємний сервіс. Наші косметологічні процедури
-              та препарати допоможуть вам підтримувати свою красу та молодість. З
-              нами краса назавжди!
-            </h3>
-          </div>
-          <div class="about-us-section__photo">
-            <img src="./images/Mask1.jpg" alt="face">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section why-we-section" id="why-we">
-      <div class="container">
-        <h2 class="why-we-section__title">
-          Чому люди<br />
-          <span class="blue-color">обирають нас</span>
-        </h2>
-        <ul class="why-we-section__list">
-          <li>
-            <article class="why-we-section__cards">
-              <div class="why-we-section__card">
-                <svg class="why-we-section__icon" width="48" height="48">
-                  <use href="./images/icons.svg#icon-science"></use>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <img src="./images/logo.svg" alt="Bento Studio Logo">
+                <button class="header__button" type="button">Order a consultation</button>
+                <svg width="85" height="25">
+                    <use href="./images/icons.svg#icon-menu"></use>
                 </svg>
-                <p class="why-we-section__text">
-                  Всі наші косметологи мають вищу медичну освіту та стаж
-                  роботи від 5 років
-                </p>
-              </div>
-            </article>
-          </li>
-          <li>
-            <article class="why-we-section__cards">
-              <div class="why-we-section__card">
-                <svg class="why-we-section__icon" width="48" height="48">
-                  <use href="./images/icons.svg#icon-medicine"></use>
-                </svg>
-                <p class="why-we-section__text">
-                  Використовуємо тільки професійне обладнання та косметику,
-                  перевірену часом
-                </p>
-              </div>
-            </article>
-          </li>
-          <li>
-            <article class="why-we-section__cards">
-              <div class="why-we-section__card">
-                <svg class="why-we-section__icon" width="48" height="48">
-                  <use href="./images/icons.svg#icon-crown-light"></use>
-                </svg>
-                <p class="why-we-section__text">
-                  Наша мета - підкреслити переваги та приховати недоліки, а не
-                  переробити
-                </p>
-              </div>
-            </article>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="section procedure-section" id="procedure">
-      <div class="container">
-        <h2 class="procedeure-section__title">
-          Наші <span class="blue-color">процедури</span>
-        </h2>
-        <div class="procedeure-section__slider">
-          <button type="button" class="procedeure-section__button carousel-button prev">
-            <svg width="17" height="17">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </button>
-          <div class="procedeure-section__container swiper-container">
-            <ul class="swiper-wrapper">
-              <li class="procedeure-section__procedure swiper-slide">
-                <img src="./images/pr1.jpg" class="format-image" alt="Маски для обличчя">
-                <span class="mask">Маски <br>для обличчя</span>
-              </li>
-              <li class="procedeure-section__procedure swiper-slide">
-                <img src="./images/pr2.jpg" class="format-image" alt="Ін'єкції для обличчя">
-                <span class="mask">Ін'єкції<br>для обличчя</span>
-              </li>
-              <li class="procedeure-section__procedure swiper-slide">
-                <img src="./images/pr3.jpg" class="format-image" alt="Очищення обличчя">
-                <span class="mask">Очищення обличчя</span>
-              </li>
-              <li class="procedeure-section__procedure swiper-slide">
-                <img src="./images/pr1.jpg" class="format-image" alt="Маски для обличчя">
-                <span class="mask">Маски <br>для обличчя</span>
-              </li>
-              <li class="procedeure-section__procedure swiper-slide">
-                <img src="./images/pr2.jpg" class="format-image" alt="Ін'єкції для обличчя">
-                <span class="mask">Ін'єкції<br>для обличчя</span>
-              </li>
-              <li class="procedeure-section__procedure swiper-slide">
-                <img src="./images/pr3.jpg" class="format-image" alt="Очищення обличчя">
-                <span class="mask">Очищення обличчя</span>
-              </li>
-            </ul>
-            <span class="pagination">
-              <button class="pagination__button" type="button"></button>
-              <button class="pagination__button" type="button"></button>
-              <button class="pagination__button" type="button"></button>
-            </span>
-          </div>
-          <button type="button" class="procedeure-section__button carousel-button next">
-            <svg class="rot" width="17" height="17">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="section contact-section" id="contacts">
-      <div class="container">
-        <h2 class="contact-section__title">Як нас <span class="blue-color">знайти</span></h2>
-        <div class="contact-section__container">
-          <iframe class="contact-section__map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1699439681921!5m2!1sru!2sua"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <div class="contact-section__signing">
-            <div class="form1">
-              <h4 class="contact-form-title">Запишіться <span class="blue-color">безкоштовно</span> та отримайте
-                подарунок
-              </h4>
-              <form class="contact-form" autocomplete="off" novalidate>
-                <div class="form-field">
-                  <label class="contact-form-field visually-hidden" for "user-name">Ваше ім'я та прізвище</label>
-                  <input class="form-input" type="text" id="user-name" name="user-name"
-                    placeholder="Ваше ім'я та прізвище">
-                </div>
-
-                <div class="contact-form-field"><label class="form-label visually-hidden" for "user-tel">Ваш номер
-                    телефону</label>
-                  <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="Ваш номер телефону">
-                </div>
-
-                <div class="contact-form-field"><label class="form-label visually-hidden" for "user-mail">Ваша
-                    електронна
-                    пошта</label>
-                  <input class="form-input" type="email" id="user-mail" name="user-mail"
-                    placeholder="Ваша електронна пошта">
-                </div>
-
-                <button class="form-button button" type="submit">Замовити дзвінок</button>
-                <p class="small-text-modal">Натискаючи на кнопку я погоджуюсь<br>з <a href="#"><span
-                      class="text-underline">політикою
-                      конфіденційності</span></a>
-                </p>
-              </form>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-container">
-        <nav class="footer-nav">
-          <a class="footer-logo" href="/index.html">
-            <img class="footer__logo" src="./images/logo-footer.svg" alt="Beauty zone" />
-            <img class="footer__logo-mob" src="./images/logo-mob.svg" alt="Beauty zone" />
-          </a>
-          <ul class="footer-links">
-            <li><a href="#about-us">Про нас</a></li>
-            <li><a href="#why-we">Чому ми</a></li>
-            <li><a href="#procedure">Наші процедури</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-          </ul>
-        </nav>
-        <address class="footer-address">
-          <ul class="footer-loc">
-            <li class="footer-loc1"><a href="tel:+380960000007">38 (096) 000 00 07</a></li>
-            <li class="footer-loc1">
-              <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
-            </li>
-            <li class="footer-loc1">
-              <a href="https://maps.app.goo.gl/f5roskzKXoE4J4bq9" target="_blank">м. Київ, вул. Тараса Шевченка 5</a>
-            </li>
-            <li>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-section__wrapper">
+                    <div class="hero-section__info">
+                        <div class="hero-section__text">
+                            <h2>Interiors Studio</h2>
+                            <p span class="hero-section__smtext">We create modern interior design for apartments and
+                                houses in New York</p>
+                        </div>
+                        <div class="hero-section__motto">
+                            <h1>Design that Adds Flavor to Your Life!</h1>
+                        </div>
+                    </div>
+                    <div class="hero-section__tariff">
+                        <div class="hero-section__tariff-info">
+                            <ul class="hero-section__tariff-info_text">
+                                <li>
+                                    <h2>Free Designer Chandelier</h2>
+                                </li>
+                                <li>
+                                    <p>When you choose the<br>All-Inclusive package</p>
+                                </li>
+                                <li>
+                                    <img src="./images/tariff-image.png">
+                                </li>
+                                <li>
+                                    <button class="hero-section__button" type="button">
+                                        <h2>Choose the tariff</h2>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hero-section__image">
+                            <img src="./images/hero-image.png">
+                        </div>
+                    </div>
 
-              <ul class="socials">
-                <li>
-                  <a href="#">
-                    <svg class="address-icon-footer" width="42" height="42">
-                      <use href="./images/icons.svg#icon-phone"></use>
-                    </svg></a>
-                </li>
-                <li><a href="#">
-                    <svg class="address-icon-footer" width="42" height="42">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li><a href="#">
-                    <svg class="address-icon-footer" width="42" height="42">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg></a>
-                </li>
-              </ul>
+                </div>
+            </div>
+        </section>
+        <section class="digits">
+            <div class="container">
+                <ul class="digits">
+                    <li class="digits__block">
+                        <span class="digits__number">10</span>
+                        <span class="digits__info">years<br>
+                            experience</span>
+                    </li>
+                    <li class="digits__block"><span class="digits__number">2</span>
+                        <span class="digits__info">weeks<br>
+                            average development time for your design project</span>
+                    </li>
+                    <li class="digits__block"><span class="digits__number">360</span>
+                        <span class="digits__info">clients<br>
+                            who enjoy their home</span>
+                    </li>
+            </div>
+        </section>
+        <section class="about-us-section">
+            <div class="container">
+                <div class="about-us-section__wrapper">
+                    <ul class="about-us-section__info">
+                        <li>
+                            <h2>About us</h2>
+                        </li>
+                        <li class="about-us-section__header">Welcome to our studio, where modern design art comes to
+                            life in unique interiors.</li>
+                        <li class="about-us-section__text">
+                            <p>We are a creative team united by a passion for creating spaces that inspire and bring
+                                joy. Our professional designers
+                                carefully listen to your needs to turn your dreams into reality. Regardless of
+                                style—whether modern minimalism or
+                                classic elegance—we craft unique concepts, highlighting your individuality. Your home is
+                                your space for self-expression,
+                                and we're ready to help you give it a distinctive character. Entrust us with creating
+                                your perfect interior, where
+                                aesthetics meets functionality.</p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section class="our-project-section">
+            <div class="container">
+                <div class="our-project-section__wrapper">
+                    <div class="our-project-section__content">
+                        <article class="our-project-section__info">
+                            <h2>Our Project</h2>
+                            <p class="our-project-section__title">Two-bedroom apartment</p>
+                            <p class="our-project-section__text">Our latest project showcases a cozy two-bedroom
+                                apartment where modern style meets
+                                functionality. We've crafted a space
+                                that reflects the client's individuality, incorporating contemporary design trends. The
+                                combination of stylish
+                                furniture, warm tones, and intelligent solutions makes this apartment comfortable and
+                                inspiring. The project embodies
+                                our design principles: attention to detail, functionality, and aesthetics. The result is
+                                a perfect living space that
+                                expresses the client's personal style."</p>
+                        </article>
+                    </div>
 
-              <ul class="socials-mob">
-                <li>
-                  <a href="#">
-                    <svg class="address-icon-footer" width="32" height="32">
-                      <use href="./images/icons.svg#icon-phone"></use>
-                    </svg></a>
-                </li>
-                <li><a href="#">
-                    <svg class="address-icon-footer" width="32" height="32">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li><a href="#">
-                    <svg class="address-icon-footer" width="32" height="32">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg></a>
-                </li>
-              </ul>
+                    <div class="our-project-section__place">
+                        <span class="our-project-section__header">Your home<br>
+                            is your place of power</span>
+                        <span class="=hero-section__image_wrap">
+                            <img src="./images/bnt-left.png" class="our-project-section__leftbtn">
+                            <img src="./images/bed.png" alt="bad" class="our-project-section__image">
+                            <img src="./images/bnt-right.png" class="our-project-section__righttbtn">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            </li>
-          </ul>
-          <div class="address-info">
-            <ul class="footer-politics">
-              <li>Політика конфіденційності</li>
-              <li>
-                <p class="small-text-footer">© 2022 Дані захищені</p>
-              </li>
-            </ul>
-          </div>
-        </address>
-      </div>
-    </div>
-  </footer>
 
-  <div class="backdrop is-hidden">
-    <div class="modal">
-      <button class="modal-btn-close" type="button">X</button>
-      <form class="modal-form" autocomplete="off">
-        <h2 class="order-call">Замовити дзвінок</h2>
-        <h4 class="call-free">Запишіться <span class="blue-color">безкоштовно</span><br>та отримайте подарунок</h4>
-
-        <div class="form-field">
-          <label class="form-label visually-hidden" for "user-name">Ваше ім'я та прізвище</label>
-          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ваше ім'я та прізвище"
-            required minlength="2" maxlength="20">
-        </div>
-
-        <div class="form-field"><label class="form-label visually-hidden" for "user-tel">Ваш номер телефону</label>
-          <input class="form-input" type="tel" id="user-tel" name="user-tel" placeholder="Ваш номер телефону" required>
-        </div>
-
-        <div class="form-field"><label class="form-label visually-hidden" for "user-mail">Ваша електронна
-            пошта</label>
-          <input class="form-input" type="email" id="user-mail" name="user-mail" placeholder="Ваша електронна пошта"
-            required>
-        </div>
-
-        <button class="form-button button" type="submit">Замовити дзвінок</button>
-        <p class="small-text-modal">Натискаючи на кнопку я погоджуюсь<br>з <a href="#"><span
-              class="text-underline">політикою
-              конфіденційності</span></a>
-        </p>
-      </form>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="./js/mobile-menu.js"></script>
-  <script src="./js/modal.js"></script>
-  <script src="./js/formats-slider.js"></script>
-
+    </main>
 </body>
 
 </html>

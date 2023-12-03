@@ -1,0 +1,80 @@
+.hero-section {
+    margin: auto;
+    margin-top: 166px;
+    text-align: center;
+    border-radius: 25px;
+    background-image: url('../images/bg-hero.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+
+
+    &__wrapper {
+        height: 750px;
+        flex-shrink: 0;
+    }
+    
+    &__info {
+        display: flex;
+        gap: 108px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    &__text {
+        margin-top: 15px;
+        margin-left: 87px;
+        width: 243px;
+    }
+
+    &__smtext {
+        margin: 10px auto;
+        width: 204px;
+        text-align: center;
+    }
+
+    &__motto {
+        width: 720px;
+        text-align: left;
+    }
+
+    &__tariff {
+        display: flex;
+    }
+
+    &__tariff-info {
+        background-image: url('../images/rect.png');
+        width: 387px;
+        height: 489px;
+        background-repeat: no-repeat;
+        padding-top: 106px;
+        margin-top: 39px;
+    }
+
+     &__tariff-info_text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: white;
+        }
+
+    &__image {
+        padding-top: 10px;
+        padding-right: 87px;
+        padding-bottom: 26px;
+        padding-left: 98px;
+    }
+
+    &__button {
+        padding: 10px 35px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 25px;
+        background: #000;
+        color: white;
+        cursor: pointer;
+        border: 1px;
+    }
+}  
+
