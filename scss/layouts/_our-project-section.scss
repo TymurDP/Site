@@ -49,21 +49,56 @@
          &__leftbtn {
             position: absolute;
             padding-top: 524px;
-            padding-left: 127px;
+            padding-left: 107px;
             cursor: pointer;
          }
          
            &__righttbtn {
             position: absolute;
             margin-top: -31px;
-            margin-left: 689px;
+            margin-left: 669px;
             cursor: pointer;
          }
     
     
     &__image {
         margin-top: 50px;
-        margin-left: 120px;
+        margin-left: 100px;
     }
 }
-         
+
+.facts-wrapp {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    padding-left: 29px;
+    align-items: flex-end;
+}
+
+.facts {
+    width: 120px;
+    height: 60px;
+    background-color: var(--brown-color);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.facts1 {
+    font-size: 20px;
+        font-weight: 700;
+        width: 120px;
+        height: 128px;
+        text-align: center;
+        padding-top: 60px;
+        background-image: url('../images/young-family.png');
+        background-repeat: no-repeat;
+        color: white;
+}
+
+.wrapper {
+    display: block;
+}

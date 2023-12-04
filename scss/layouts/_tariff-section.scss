@@ -1,0 +1,74 @@
+.tariff-section {
+    margin-top: 80px;
+
+    &__title {
+        display: flex;
+        gap: 20px;
+        
+    
+    }
+
+    &__title-form {
+        width: 590px;
+        height: 100px;
+        background-color: var(--brown-color);
+        border-radius: 25px;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+        &__info {
+        display: flex;
+        gap: 20px;
+  
+    }
+
+       &__info-form {
+        width: 590px;
+        height: 360px;
+        background-color: var(--caramel-color);
+        border-radius: 25px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 24px 102px;
+        line-height: 1.6;
+    }
+
+        &__order-wrapp {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        &__metr {
+            width: 184px;
+            height: 60px;
+            background-color: var(--brown-color);
+            color: white;
+            border-radius: 25px;
+            padding-top: 16px;
+            text-align: center;
+        }
+
+        &__order {
+
+            width: 387px;
+            height: 60px;
+            background-color: white;
+            padding-top: 16px;
+            text-align: center;
+            border-radius: 25px;
+
+        }
+}
+
+.form1 {
+    padding: 102px 102px;
+}
+
+.list {
+    list-style-type: disc;
+}
